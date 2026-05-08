@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178 44" width="178" height="44" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">najam.work</title>
+
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c83fd"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hexagon badge background -->
+  <polygon
+    points="22,3 37,11.5 37,28.5 22,37 7,28.5 7,11.5"
+    fill="#0d0d1f"
+    stroke="#7c83fd"
+    stroke-width="1.4"
+    opacity="0.95"
+  />
+
+  <!-- N — left vertical bar -->
+  <rect x="13" y="12" width="3.5" height="16" rx="1.2" fill="#7c83fd"/>
+  <!-- N — right vertical bar -->
+  <rect x="27.5" y="12" width="3.5" height="16" rx="1.2" fill="#7c83fd"/>
+  <!-- N — diagonal stroke -->
+  <line x1="16.5" y1="12" x2="27.5" y2="28" stroke="#a78bfa" stroke-width="3.2" stroke-linecap="round"/>
+  <!-- Accent dot top-right -->
+  <circle cx="37" cy="11.5" r="2.2" fill="#38bdf8"/>
+
+  <!-- "najam" — white/light text -->
+  <text
+    x="50" y="28"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="16"
+    font-weight="700"
+    fill="#e8eaf6"
+    letter-spacing="1"
+  >najam</text>
+
+  <!-- Dot separator -->
+  <circle cx="109" cy="22" r="2.2" fill="#a78bfa"/>
+
+  <!-- "work" — accent purple -->
+  <text
+    x="115" y="28"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="16"
+    font-weight="700"
+    fill="#7c83fd"
+    letter-spacing="1"
+  >work</text>
+
+  <!-- Underline -->
+  <line x1="50" y1="33" x2="170" y2="33" stroke="#7c83fd" stroke-width="0.7" opacity="0.3"/>
+</svg>
